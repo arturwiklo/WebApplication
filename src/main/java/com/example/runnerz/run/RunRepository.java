@@ -24,6 +24,21 @@ public class RunRepository {
                 .findFirst();
     }
 
+    void create(Run run) {
+        runs.add(run);
+    }
+
+    void update(Run run, Integer id) {
+        Optional<Run> existing = findById(id);
+        if (existing.isPresent()) {
+            runs.set(runs.indexOf(existing.get()), run);
+        }
+    }
+
+    void delete(Integer id) {
+        runs.removeIf(run -> Objects.equals(run.id(), id));
+    }
+
     @PostConstruct
     public void init() {
         runs.add(new Run(1,
