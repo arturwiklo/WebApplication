@@ -30,9 +30,7 @@ public class RunRepository {
 
     void update(Run run, Integer id) {
         Optional<Run> existing = findById(id);
-        if (existing.isPresent()) {
-            runs.set(runs.indexOf(existing.get()), run);
-        }
+        existing.ifPresent(value -> runs.set(runs.indexOf(value), run));
     }
 
     void delete(Integer id) {
