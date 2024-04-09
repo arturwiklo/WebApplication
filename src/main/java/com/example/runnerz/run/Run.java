@@ -3,14 +3,14 @@ package com.example.runnerz.run;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Positive;
 
-import java.time.LocalDateTime;
+import java.time.Instant;
 
 public record Run(
         Integer id,
         @NotEmpty
         String title,
-        LocalDateTime startedOn,
-        LocalDateTime completedOn,
+        Instant startedOn,
+        Instant completedOn,
         @Positive
         Integer kilometers,
         Location location

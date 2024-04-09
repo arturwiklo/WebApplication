@@ -1,0 +1,82 @@
+<runs>
+    <run>
+        <id>1</id>
+        <title>Noon Run</title>
+        <startedOn>2024-02-20T06:05:00Z</startedOn>
+        <completedOn>2024-02-20T10:27:00Z</completedOn>
+        <kilometers>24</kilometers>
+        <location>INDOOR</location>
+    </run>
+    <run>
+        <id>2</id>
+        <title>Afternoon Run</title>
+        <startedOn>2024-02-22T12:16:00Z</startedOn>
+        <completedOn>2024-02-22T14:27:00Z</completedOn>
+        <kilometers>6</kilometers>
+        <location>OUTDOOR</location>
+    </run>
+    <run>
+        <id>3</id>
+        <title>Dawn Run</title>
+        <startedOn>2024-03-06T19:47:00Z</startedOn>
+        <completedOn>2024-03-06T22:06:00Z</completedOn>
+        <kilometers>19</kilometers>
+        <location>INDOOR</location>
+    </run>
+    <run>
+        <id>4</id>
+        <title>Sunset Jog</title>
+        <startedOn>2024-03-31T08:32:00Z</startedOn>
+        <completedOn>2024-03-31T12:57:00Z</completedOn>
+        <kilometers>7</kilometers>
+        <location>OUTDOOR</location>
+    </run>
+    <run>
+        <id>5</id>
+        <title>Sunset Jog</title>
+        <startedOn>2024-03-01T03:49:00Z</startedOn>
+        <completedOn>2024-03-01T05:58:00Z</completedOn>
+        <kilometers>11</kilometers>
+        <location>INDOOR</location>
+    </run>
+    <run>
+        <id>6</id>
+        <title>Noon Run</title>
+        <startedOn>2024-03-02T21:02:00Z</startedOn>
+        <completedOn>2024-03-03T00:36:00Z</completedOn>
+        <kilometers>3</kilometers>
+        <location>INDOOR</location>
+    </run>
+    <run>
+        <id>7</id>
+        <title>Sunset Jog</title>
+        <startedOn>2024-04-05T02:46:00Z</startedOn>
+        <completedOn>2024-04-05T06:43:00Z</completedOn>
+        <kilometers>8</kilometers>
+        <location>INDOOR</location>
+    </run>
+    <run>
+        <id>8</id>
+        <title>Morning Run</title>
+        <startedOn>2024-03-29T06:37:00Z</startedOn>
+        <completedOn>2024-03-29T09:19:00Z</completedOn>
+        <kilometers>20</kilometers>
+        <location>OUTDOOR</location>
+    </run>
+    <run>
+        <id>9</id>
+        <title>Sunset Jog</title>
+        <startedOn>2024-03-22T23:22:00Z</startedOn>
+        <completedOn>2024-03-23T02:41:00Z</completedOn>
+        <kilometers>4</kilometers>
+        <location>INDOOR</location>
+    </run>
+    <run>
+        <id>10</id>
+        <title>Dawn Run</title>
+        <startedOn>2024-03-08T01:34:00Z</startedOn>
+        <completedOn>2024-03-08T05:53:00Z</completedOn>
+        <kilometers>23</kilometers>
+        <location>OUTDOOR</location>
+    </run>
+</runs>
